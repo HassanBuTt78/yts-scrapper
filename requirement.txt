@@ -1,0 +1,16 @@
+beautifulsoup4==4.12.2
+certifi==2020.6.20
+chardet==4.0.0
+cupshelpers==1.0
+dbus-python==1.2.16
+dnspython==2.3.0
+idna==2.10
+pycairo==1.16.2
+pycups==2.0.1
+PyGObject==3.38.0
+pymongo==4.3.3
+pysmbc==1.0.23
+requests==2.25.1
+six==1.16.0
+soupsieve==2.4.1
+urllib3==1.26.5
