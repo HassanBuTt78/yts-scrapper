@@ -3,6 +3,8 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 from bson.objectid import ObjectId
 import requests
+import sys
+import os
 import time
 import json
 
@@ -124,3 +126,4 @@ except Exception as error:
         print(f'There has been en error {error}')
         print('******************************************RESTARTING*************************************************')
         time.sleep(5)
+        os.execv(sys.executable, ['python'] + sys.argv)
