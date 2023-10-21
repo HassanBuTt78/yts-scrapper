@@ -11,7 +11,7 @@ import json
 
 try:
 
-    uri = "mongodb+srv://Hassan:hassan@cluster0.wmrmexl.mongodb.net/?retryWrites=true&w=majority"
+    uri = 1 #add your mongodb uri here
     client = MongoClient(uri, server_api=ServerApi('1'))
     try:
         client.admin.command('ping')
